@@ -4,4 +4,4 @@ require ::File.expand_path('../lib/api/v1',  __FILE__)
 map '/ext/api/v1' do
   run Api::V1
 end
-#run Rails.application
+run Rails.application
